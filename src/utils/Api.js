@@ -1,19 +1,58 @@
 import { AsyncStorage } from "react-native";
 
-const FLASHCARDS_STORAGE_KEY = "Flashcards:data";
+const FLASHCARDS_STORAGE_KEY = "Flashcards:db";
 
 export const data = {
-  TopicAA: {
-    title: "TopicAA",
+  React: {
+    title: "React",
     questions: [
       {
-        question: "Question 1",
-        answer: "Answer 1",
+        question: "Differentiate between Real DOM and Virtual DOM.",
+        answer: "Place answer here",
+      },
+      {
+        question: "What is React?.",
+        answer: "Place answer here",
+      },
+      {
+        question: "What are the features of React? ",
+        answer: "Place answer here",
+      },
+      {
+        question: "List some of the major advantages of React.",
+        answer: "Place answer here",
       },
     ],
   },
-  TopicBB: {
-    title: "TopicBB",
+  JAVA: {
+    title: "JAVA",
+    questions: [
+      {
+        question: "Question2 1",
+        answer: "Answer2 1",
+      },
+    ],
+  },
+  Python: {
+    title: "python",
+    questions: [
+      {
+        question: "Question2 1",
+        answer: "Answer2 1",
+      },
+    ],
+  },
+  Ruby: {
+    title: "Ruby",
+    questions: [
+      {
+        question: "Question2 1",
+        answer: "Answer2 1",
+      },
+    ],
+  },
+  Rust: {
+    title: "Rust",
     questions: [
       {
         question: "Question2 1",

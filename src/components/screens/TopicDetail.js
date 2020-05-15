@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     color: "#fff",
   },
   btn: {
-    paddingTop: 20,
+    marginTop: 20,
   }
 });
 
