@@ -2,8 +2,8 @@
   "name": "mobile-flashcards",
   "displayName": "mobile-flashcards",
   "expo": {
-    "name": "mobile-flashcards",
-    "slug": "mobile-flashcards",
+    "name": "mobile-flashcards-amrinder",
+    "slug": "mobile-flashcards-amrinder",
     "version": "1.0.0",
     "platforms": [
       "ios",
@@ -12,6 +12,7 @@
     ],
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "description": ""
   }
 }
